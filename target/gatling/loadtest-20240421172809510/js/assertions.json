@@ -1,0 +1,10 @@
+{
+  "simulation": "test.LoadTest",
+  "simulationId": "loadtest",
+  "start": 1713720489510,
+  "description": "t1",
+  "scenarios": ["VideoGameFlow"],
+  "assertions": [
+
+  ]
+}

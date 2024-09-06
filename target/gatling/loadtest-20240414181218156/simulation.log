@@ -1,0 +1,7 @@
+RUN	test.LoadTest	loadtest	1713118338156	test2	3.6.1
+USER	VideoGameFlow	START	1713118340392
+REQUEST		Authentication token request	1713118340422	1713118342176	OK	 
+REQUEST		Get All Video Games	1713118342205	1713118342805	OK	 
+REQUEST		Create Video Game	1713118342814	1713118343137	OK	 
+REQUEST		Get Video Game By ID	1713118343155	1713118343446	OK	 
+ERROR	Update Video Game: Failed to build request: Resource updateVideoGame.json not found 	1713118343448

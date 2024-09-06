@@ -1,0 +1,8 @@
+RUN	test.LoadTest	loadtest	1713722392648	t1	3.6.1
+USER	VideoGameFlow	START	1713722393144
+REQUEST		Authentication token request	1713722393208	1713722393209	KO	j.n.UnknownHostException: videogamedb.uk
+ERROR	Get All Video Games: Failed to build request: No attribute named 'token' is defined 	1713722393227
+ERROR	Create Video Game: Failed to build request: No attribute named 'token' is defined 	1713722393231
+ERROR	Get Video Game By ID: Failed to build request: No attribute named 'token' is defined 	1713722393236
+ERROR	Update Video Game: Failed to build request: No attribute named 'token' is defined 	1713722393237
+ERROR	Delete Video Game: Failed to build request: No attribute named 'token' is defined 	1713722393238
